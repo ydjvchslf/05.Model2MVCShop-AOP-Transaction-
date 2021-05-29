@@ -116,7 +116,7 @@ public class ProductServiceTest {
 	 
 	 	
 	 //==>  주석을 풀고 실행하면....
-	 //@Test
+	 @Test
 	 public void testGetProductListAll() throws Exception{
 		 
 	 	Search search = new Search();
@@ -128,7 +128,7 @@ public class ProductServiceTest {
 	 	Assert.assertEquals(3, list.size());
 	 	
 		//==> console 확인
-	 	//System.out.println(list);
+	 	System.out.println(list);
 	 	
 	 	Integer totalCount = (Integer)map.get("totalCount");
 	 	System.out.println(totalCount);
